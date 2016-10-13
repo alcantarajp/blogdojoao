@@ -11,4 +11,6 @@
 |
 */
 
+Route::get('/', 'BlogController@template');
+
 Route::get('/{pagina}', 'BlogController@index');

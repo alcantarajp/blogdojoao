@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('titulo_head')
-	Mundo
+	Carros
 @endsection
 
 @section('titulo')

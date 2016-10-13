@@ -10,6 +10,11 @@ use App\Http\Controllers\Controller;
 class BlogController extends Controller
 {
 
+    public function template()
+    {
+        return view('template');
+    }
+
     public function index($pagina)
     {
 
